@@ -27,7 +27,7 @@ jobs:
 
       - name: Sync upstream changes
         id: sync
-        uses: aormsby/Fork-Sync-With-Upstream-action@master
+        uses: aormsby/Fork-Sync-With-Upstream-action@main
         with:
           upstream_sync_repo: EkkoG/OpenWrt
           upstream_sync_branch: master
